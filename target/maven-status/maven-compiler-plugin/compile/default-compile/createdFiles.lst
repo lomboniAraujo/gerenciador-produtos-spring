@@ -1,0 +1,10 @@
+com\example\gerenciadorprodutos\model\Produto.class
+com\example\gerenciadorprodutos\client\ApiExternaClient.class
+com\example\gerenciadorprodutos\client\EnderecoResponse.class
+com\example\gerenciadorprodutos\repository\LogRepository.class
+com\example\gerenciadorprodutos\client\RetrofitConfig.class
+com\example\gerenciadorprodutos\model\LogAcao.class
+com\example\gerenciadorprodutos\repository\ProdutoRepository.class
+com\example\gerenciadorprodutos\service\ProdutoService.class
+com\example\gerenciadorprodutos\controller\ProdutoController.class
+com\example\gerenciadorprodutos\GerenciadorProdutosSpringApplication.class

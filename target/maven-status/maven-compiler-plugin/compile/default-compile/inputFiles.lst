@@ -1,0 +1,10 @@
+C:\workspace\gerenciador-produtos-spring\src\main\java\com\example\gerenciadorprodutos\client\ApiExternaClient.java
+C:\workspace\gerenciador-produtos-spring\src\main\java\com\example\gerenciadorprodutos\client\EnderecoResponse.java
+C:\workspace\gerenciador-produtos-spring\src\main\java\com\example\gerenciadorprodutos\client\RetrofitConfig.java
+C:\workspace\gerenciador-produtos-spring\src\main\java\com\example\gerenciadorprodutos\controller\ProdutoController.java
+C:\workspace\gerenciador-produtos-spring\src\main\java\com\example\gerenciadorprodutos\GerenciadorProdutosSpringApplication.java
+C:\workspace\gerenciador-produtos-spring\src\main\java\com\example\gerenciadorprodutos\model\LogAcao.java
+C:\workspace\gerenciador-produtos-spring\src\main\java\com\example\gerenciadorprodutos\model\Produto.java
+C:\workspace\gerenciador-produtos-spring\src\main\java\com\example\gerenciadorprodutos\repository\LogRepository.java
+C:\workspace\gerenciador-produtos-spring\src\main\java\com\example\gerenciadorprodutos\repository\ProdutoRepository.java
+C:\workspace\gerenciador-produtos-spring\src\main\java\com\example\gerenciadorprodutos\service\ProdutoService.java
