@@ -36,6 +36,12 @@ public class ProdutoController {
         return produtoService.listar();
     }
 
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> deletar(@PathVariable Long id) {
+        produtoService.deletar(id);
+        return ResponseEntity.noContent().build();
+    }
+
     @GetMapping("/consultar-cep/{cep}")
     public ResponseEntity<?> consultarCep(@PathVariable String cep) {
         try {

@@ -22,11 +22,25 @@ public class ProdutoService {
 
     public Produto salvar(Produto produto) {
         Produto salvo = produtoRepository.save(produto);
-        logRepository.save(new LogAcao("Produto cadastrado: " + salvo.getNome(), LocalDateTime.now()));
+
+        LogAcao log = new LogAcao();
+        log.setDescricao("Produto criado: " + salvo.getNome());
+        log.setDataHora(LocalDateTime.now());
+        logRepository.save(log);
+
         return salvo;
     }
 
     public List<Produto> listar() {
         return produtoRepository.findAll();
+    }
+
+    public void deletar(Long id) {
+        produtoRepository.deleteById(id);
+
+        LogAcao log = new LogAcao();
+        log.setDescricao("Produto deletado com ID: " + id);
+        log.setDataHora(LocalDateTime.now());
+        logRepository.save(log);
     }
 }
